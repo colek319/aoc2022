@@ -37,7 +37,7 @@ decision_chart = {
 }
 
 def main():
-    lines = readfile('01a')
+    lines = readfile('01')
     score = 0
     for line in lines:
         guide = line.split(' ')
