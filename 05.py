@@ -1,14 +1,23 @@
-from lib.lib import readfile
+from lib.lib import readfile_nolines
 
 def part1():
-    lines = readfile('05')
-    for line in lines:
-        continue
+    stream = readfile_nolines('05')
+    for i in range(4, len(stream)):
+        if len(set(stream[i-4:i])) == 4:
+            print('Found a match!')
+            print(stream[i-4:i])
+            print(i)
+            break
+        
 
 def part2():
-    lines = readfile('05')
-    for line in lines:
-        continue
+    stream = readfile_nolines('05')
+    for i in range(14, len(stream)):
+        if len(set(stream[i-14:i])) == 14:
+            print('Found a match!')
+            print(stream[i-14:i])
+            print(i)
+            break
 
 if __name__ == '__main__':
     part1()
