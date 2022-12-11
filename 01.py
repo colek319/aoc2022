@@ -1,4 +1,4 @@
-from lib.lib import readfile
+from helpers.helpers import readfile
 
 point_chart = {
     'A': {

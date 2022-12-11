@@ -1,4 +1,4 @@
-from lib.lib import readfile_nolines
+from helpers.helpers import readfile_nolines
 
 def part1():
     stream = readfile_nolines('05')

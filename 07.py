@@ -1,4 +1,4 @@
-from lib.lib import readlines
+from helpers.helpers import readlines
 
 WIDTH = 99
 HEIGHT = 99

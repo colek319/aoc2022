@@ -1,4 +1,4 @@
-from lib.lib import readlines
+from helpers.helpers import readlines
 
 def part1():
     visited = set()

@@ -1,4 +1,4 @@
-from lib.lib import readfile, shrink_whitespace
+from helpers.helpers import readfile, shrink_whitespace
 from parse import parse
 
 def part1():

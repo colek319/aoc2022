@@ -1,4 +1,4 @@
-from lib.lib import readfile, readlines
+from helpers.helpers import readfile, readlines
 from parse import parse
 import sys
 

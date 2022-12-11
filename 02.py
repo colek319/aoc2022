@@ -1,4 +1,4 @@
-from lib.lib import readfile
+from helpers.helpers import readfile
 
 alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 priorities = {alphabet[i]: i+1 for i in range(52)}

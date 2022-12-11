@@ -1,4 +1,4 @@
-from lib.lib import readfile
+from helpers.helpers import readfile
 
 def part1():
     lines = readfile('03')
